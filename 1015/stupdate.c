@@ -31,7 +31,7 @@ int main(int argc, char*argv[]){
 			}
 			else printf("레코드 %d 없음\n",id);
 		}
-		else ("입력 오류\n");
+		else printf("입력 오류\n");
 		printf("계속 하시겠습니까?(Y/N)");
 		__fpurge(stdin);
 		scanf("%c",&c);
